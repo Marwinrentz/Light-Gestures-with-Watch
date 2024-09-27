@@ -1,0 +1,12 @@
+{
+  "name": "My Watch Add-on",
+  "version": "1.0",
+  "slug": "my_watch_addon",
+  "description": "Ein Add-on zum Steuern von Lichtern mit einer Uhr",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "image": "local/my_watch_addon"
+}
